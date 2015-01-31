@@ -1,0 +1,49 @@
+<section class="alt-section section-travel">
+  
+  <h3 id="travel">Travel</h3>
+  {% for project in site.data.settings.projects %}
+    <input type="radio" name="trigger" class="trigger" id="{{ project.folder }}" />
+  {% endfor %}
+
+  <input type="radio" name="trigger" id="return" class="return" />
+
+  <div class="travel-belt">
+    
+    <div class="thumb-wrap">
+      <div class="thumb-container">
+      {% for project in site.data.settings.projects %}
+      <label for="{{ project.folder }}">  
+        <div class="thumb-unit" data-folder="{{ project.folder }}" style="background-image: url(assets/img/travel/{{project.folder}}/thumb.jpg);"> 
+          <div class="thumb-overlay">
+            <strong>{{ project.name }}</strong>
+          </div>
+        </div>
+      </label>
+      {% endfor %}
+    </div>
+    </div>
+    
+    <div class="travel-wrap">
+      <div class="travel-container">
+      <label for="return">
+        <div class="travel-return">{% include icons/icon-back.html %}</div>
+      </label>
+      <h4 class="project-title"></h4>
+      <div class="project-load"></div>
+ 
+      <noscript>
+        {% for project in site.data.settings.projects %}
+          <div class="noscript" id="content-{{ project.folder }}">
+            <h4 class="project-title">{{ project.name }}</h4>
+            <div class="noscript-load">
+              {% include {{project.file}} %}
+            </div>
+          </div>
+        {% endfor %}
+      </noscript>
+
+    </div>
+    </div>
+    
+  </div>
+</section>

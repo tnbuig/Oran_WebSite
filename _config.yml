@@ -1,22 +1,12 @@
-# Site settings
-title: Artists Theme
-email: your-email@domain.com
-description: "Programmer // Traveler // Human"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
 # Build settings
+
 markdown: kramdown
-
-
-# Build settings
-
-
 permalink: pretty
 
+port: 8000
 
+include: ['_includes/travel']
+exclude: ['the_design.psd']
 
 sass:
   sass_dir: assets/css
