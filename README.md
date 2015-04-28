@@ -1,6 +1,6 @@
 # Oran_WebSite
 
-http://tnbuig.github.io/Oran_website/
+http://tnbuig.github.io/
 
 ## How to install/use Jekyll on windows
 
