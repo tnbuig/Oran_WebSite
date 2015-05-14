@@ -1,8 +1,8 @@
 <section class="alt-section section-travel">
   
   <h3 id="travel">Travel</h3>
-  {% for project in site.data.settings.projects %}
-    <input type="radio" name="trigger" class="trigger" id="{{ project.folder }}" />
+  {% for trip in site.data.settings.trips %}
+    <input type="radio" name="trigger" class="trigger" id="{{ trips.folder }}" />
   {% endfor %}
 
   <input type="radio" name="trigger" id="return" class="return" />
@@ -11,11 +11,11 @@
     
     <div class="thumb-wrap">
       <div class="thumb-container">
-      {% for project in site.data.settings.projects %}
-      <label for="{{ project.folder }}">  
-        <div class="thumb-unit" data-folder="{{ project.folder }}" style="background-image: url(assets/img/travel/{{project.folder}}/thumb.jpg);"> 
+      {% for trip in site.data.settings.trips %}
+      <label for="{{ trip.folder }}">  
+        <div class="thumb-unit" data-folder="{{ trip.folder }}" style="background-image: url(assets/img/travel/{{trip.folder}}/thumb.jpg);"> 
           <div class="thumb-overlay">
-            <strong>{{ project.name }}</strong>
+            <strong>{{ trip.name }}</strong>
           </div>
         </div>
       </label>
@@ -28,15 +28,15 @@
       <label for="return">
         <div class="travel-return">{% include icons/icon-back.html %}</div>
       </label>
-      <h4 class="project-title"></h4>
-      <div class="project-load"></div>
+      <h4 class="trip-title"></h4>
+      <div class="trip-load"></div>
  
       <noscript>
-        {% for project in site.data.settings.projects %}
-          <div class="noscript" id="content-{{ project.folder }}">
-            <h4 class="project-title">{{ project.name }}</h4>
+        {% for trip in site.data.settings.trips %}
+          <div class="noscript" id="content-{{ trip.folder }}">
+            <h4 class="trip-title">{{ trip.name }}</h4>
             <div class="noscript-load">
-              {% include {{project.file}} %}
+              {% include {{trip.file}} %}
             </div>
           </div>
         {% endfor %}

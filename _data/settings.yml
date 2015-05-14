@@ -10,7 +10,7 @@ description: "Programmer // Traveler // Human"
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Travel, url: '#travel'}
-- {name: Clients, url: '#clients'}
+- {name: Projects, url: '#projects'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -29,62 +29,59 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Wanted to create a free website for myself** So i have found Great tutorials on youtube.
-  Recommend to check it out, "youtube.com/user/DevTipsForDesigners".
-  The information here only partially real, this website is mostly for learning purposes.
+  **In each and every one of us there is a small artist** and this artist want to creat new things 
+  and have his/her say in this world, welcome to my 10 cents share in this small corner of the wwww.
+  
+  A C# developer whos interest in everything which is *New* or *different*, that also why i like traveling
+  and getting to know new culture and places - like every second Joe and Jain.
+  So what better then having a site to present some ideas in a semi private stage.
+
+  This site design and inspiration credits go to "youtube.com/user/DevTipsForDesigners".
+  Comments and suggestion are welcome.
+
   Thanks for visiting.
 
 
 
 skills:
 - {name: Team Work, value: '8'}
-- {name: Organization, value: '7'}
-- {name: Learning, value: '8'}
-- {name: Curiosity, value: '6'}
+- {name: Organization, value: '6'}
+- {name: Learning, value: '6'}
+- {name: Curiosity, value: '8'}
 - {name: Planning, value: '7'}
 - {name: Refactoring, value: '5'}
-- {name: Adaptability, value: '8'}
+- {name: Adaptability, value: '7'}
 - {name: Programming, value: '6'}
 
 #-------------------------------
 # Travel Section
 
-projects:
-- {name: Israel, folder: 'proj-1', file: 'travel/proj-1.html'}
-- {name: Netherlands, folder: 'proj-2', file: 'travel/proj-2.html'}
-- {name: Bulgaria, folder: 'proj-3', file: 'travel/proj-3.html'}
-- {name: Germany, folder: 'proj-4', file: 'travel/proj-4.html'}
-- {name: Slovakia, folder: 'proj-5', file: 'travel/proj-5.html'}
-- {name: Timeline Page, folder: 'proj-6', file: 'travel/proj-6.html'}
-- {name: U.S.A, folder: 'proj-7', file: 'travel/proj-7.html'}
-- {name: Mongolia, folder: 'proj-8', file: 'travel/proj-8.html'}
+trips:
+- {name: Israel, folder: 'trip-1', file: 'travel/trip-1.html'}
+- {name: Netherlands, folder: 'trip-2', file: 'travel/trip-2.html'}
+- {name: Bulgaria, folder: 'trip-3', file: 'travel/trip-3.html'}
+- {name: Germany, folder: 'trip-4', file: 'travel/trip-4.html'}
+- {name: Slovakia, folder: 'trip-5', file: 'travel/trip-5.html'}
+- {name: Timeline Page, folder: 'trip-6', file: 'travel/trip-6.html'}
+- {name: U.S.A, folder: 'trip-7', file: 'travel/trip-7.html'}
+- {name: Mongolia, folder: 'trip-8', file: 'travel/trip-8.html'}
 
 
 
 
 #-------------------------------
-# Clients Section
+# Projects Section
 
-clients:
-- {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
-  logo: 'logo1.png'}
-- {avatar: 'face-atariboy.jpg',
-  name: 'Hank McCoy',
-  title: 'Eater of Salad, Antartica Int.',
-  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
-  logo: 'logo2.png'}
-- {avatar: 'face-jackiesaik.jpg',
-  name: 'Stacy Lang',
-  title: 'Social Media Girl, Quebec Int.',
-  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+projects:
+- {avatar: 'Twitter-api-Mvvm.jpg',
+  name: 'Twitter Api MVVM WPF',
+  title: 'Tutorial to Consum Web Api from WPF Based Client',
+  quote: '<p><strong>Wanne Follow random twits from finland</strong> Isnt that crazy useless idea? Well now you have the code to support it and well desinged as well, good tutorial for learning how to consume Web Api From WPF client according to MVVM desing pattern</p>',
   logo: 'logo3.png'}
-- {avatar: 'face-teleject.jpg',
-  name: 'Cleatus Cassidy',
-  title: 'VP of Helmut, Lorem Sorem LLC.',
-  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
+- {avatar: 'Planning-Poker.jpg',
+  name: 'Complete and Basic Website',
+  title: 'Tutorial to create a free online(not local) website with using only Html Css and Php',
+  quote: '<p><strong>Learned to run before you can walk?</strong>Ignoring the hundreths of free Libraries&Frameworks available will leave you behhind and in the dark, so this tutorial will help you to get the building blocks of website development by doing.</p>',
   logo: 'logo4.png'}
    
   
@@ -92,7 +89,7 @@ clients:
 # Contact Section
   
 social:
-- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
+- {icon: 'facebook', link: 'http://facebook.com'}
 - {icon: 'github', link: 'https://github.com/tnbuig'}
 - {icon: 'couchsurfing', link: 'https://www.couchsurfing.com/users/1559177/profile'}
 - {icon: 'youtube', link: 'https://www.youtube.com/user/tnbuig'}

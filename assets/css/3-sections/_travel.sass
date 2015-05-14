@@ -5,8 +5,8 @@
 .noscript
   display: none
 
-@each $proj in $projects
-  ##{$proj}:checked ~ .travel-belt .travel-wrap .travel-container noscript #content-#{$proj}
+@each $trip in $trips
+  ##{$trip}:checked ~ .travel-belt .travel-wrap .travel-container noscript #content-#{$trip}
     display: block
 
 .return

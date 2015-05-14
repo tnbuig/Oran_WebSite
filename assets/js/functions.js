@@ -2,7 +2,7 @@ $(function() {
 	smoothScroll(300);
 	travelBelt();
 	travelLoad();
-	clientStuff();
+	projectStuff();
 	
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	$(".biglink").fitText(1.5);
@@ -54,8 +54,8 @@ function  travelLoad() {
         spinner = '<div class="loader">Loading...</div>',
         newHTML = 'travel/'+ newfolder;
       
-    $('.project-load').html(spinner).load(newHTML);
-    $('.project-title').text(newTitle);
+    $('.trip-load').html(spinner).load(newHTML);
+    $('.trip-title').text(newTitle);
   });
   
 }
@@ -63,47 +63,47 @@ function  travelLoad() {
 
 
 
-function clientStuff() {
+function projectStuff() {
   
-  $('.client-unit').first().addClass('active-client');
-  $('.client-logo').first().addClass('active-client');
-  $('.clients-mobile-nav span').first().addClass('active-client');
+  $('.project-unit').first().addClass('active-project');
+  $('.project-logo').first().addClass('active-project');
+  $('.projects-mobile-nav span').first().addClass('active-project');
   
   
-  $('.client-logo, .clients-mobile-nav span').click(function() {
+  $('.project-logo, .projects-mobile-nav span').click(function() {
     var $this = $(this),
         $siblings = $this.parent().children(),
         position = $siblings.index($this);
         
-    $('.client-unit').removeClass('active-client').eq(position).addClass('active-client');
-    $siblings.removeClass('active-client');
-    $this.addClass('active-client');
+    $('.project-unit').removeClass('active-project').eq(position).addClass('active-project');
+    $siblings.removeClass('active-project');
+    $this.addClass('active-project');
   });
   
   
-  $('.client-control-next, .client-control-prev').click(function() {
+  $('.project-control-next, .project-control-prev').click(function() {
   
     var $this = $(this),
-        curActiveClient = $('.clients-belt').find('.active-client'),
-        position = $('.clients-belt').children().index(curActiveClient),
-        clientNum = $('.client-unit').length;
+        curActiveProject = $('.projects-belt').find('.active-project'),
+        position = $('.projects-belt').children().index(curActiveProject),
+        projectNum = $('.project-unit').length;
         
-      if($this.hasClass('client-control-next')) {
+      if($this.hasClass('project-control-next')) {
         
-        if(position < clientNum -1){
-          $('.active-client').removeClass('active-client').next().addClass('active-client');
+        if(position < projectNum -1){
+          $('.active-project').removeClass('active-project').next().addClass('active-project');
         } else {
-          $('.client-unit').removeClass('active-client').first().addClass('active-client');
-          $('.client-logo').removeClass('active-client').first().addClass('active-client');
+          $('.project-unit').removeClass('active-project').first().addClass('active-project');
+          $('.project-logo').removeClass('active-project').first().addClass('active-project');
         }
         
       } else {
         
         if (position === 0) {
-          $('.client-unit').removeClass('active-client').last().addClass('active-client');
-          $('.client-logo').removeClass('active-client').last().addClass('active-client');
+          $('.project-unit').removeClass('active-project').last().addClass('active-project');
+          $('.project-logo').removeClass('active-project').last().addClass('active-project');
         } else {
-          $('.active-client').removeClass('active-client').prev().addClass('active-client');  
+          $('.active-project').removeClass('active-project').prev().addClass('active-project');  
         }
 
       }
