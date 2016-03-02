@@ -1,4 +1,4 @@
-# Oran's corner in the WWW
+# Oran's corner in the www
 
 http://tnbuig.github.io/
 
