@@ -19,7 +19,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 seo:
   description: 'Oran Gerbovski Blog Devloper C#'
-  rel-author: 'https://plus.google.com/+tnbuig/'
+  rel-author: 'https://www.linkedin.com/in/orangerbovski'
   rel-publisher: 'https://plus.google.com/+tnbuig'
 
 
@@ -33,11 +33,12 @@ blurb: >
   and have his/her say in this world.
   Welcome to my two cents in this small corner of the web.
   
-  A C# developer whos interest in *New* or *different*, that also why i like traveling
+  A .Net developer whos inspired by the *New* and *different*, that also why i love to travel
   and getting to experience different cultures and new places.
-  So what better then having a site to present some ideas in a semi private stage.
+  Get a glimpse of the world from a different point view.
 
-  This site design and inspiration credits go to "youtube.com/user/DevTipsForDesigners".
+  So why not to have a site to present some ideas in a semi private stage.
+
   Comments and suggestion are welcome.
 
   Thanks for visiting.
@@ -68,8 +69,6 @@ trips:
 - {name: Mongolia, folder: 'trip-8', file: 'travel/trip-8.html'}
 
 
-
-
 #-------------------------------
 # Projects Section
 
@@ -90,11 +89,11 @@ projects:
 # Contact Section
   
 social:
-- {icon: 'facebook', link: 'http://facebook.com'}
+- {icon: 'facebook', link: 'https://www.facebook.com/oran.garbovski'}
 - {icon: 'github', link: 'https://github.com/tnbuig'}
-- {icon: 'couchsurfing', link: 'https://www.couchsurfing.com/users/1559177/profile'}
+- {icon: 'couchsurfing', link: 'https://www.couchsurfing.com/people/oran_grabovski'}
 - {icon: 'youtube', link: 'https://www.youtube.com/user/tnbuig'}
-- {icon: 'linkedin', link: 'de.linkedin.com/in/OranGerbovsk'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/orangerbovski'}
 
   
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
