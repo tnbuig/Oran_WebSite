@@ -64,9 +64,13 @@ trips:
 - {name: Bulgaria, folder: 'trip-3', file: 'travel/trip-3.html'}
 - {name: Germany, folder: 'trip-4', file: 'travel/trip-4.html'}
 - {name: Slovakia, folder: 'trip-5', file: 'travel/trip-5.html'}
-- {name: Timeline Page, folder: 'trip-6', file: 'travel/trip-6.html'}
+- {name: India, folder: 'trip-6', file: 'travel/trip-6.html'}
 - {name: U.S.A, folder: 'trip-7', file: 'travel/trip-7.html'}
 - {name: Mongolia, folder: 'trip-8', file: 'travel/trip-8.html'}
+- {name: Japan, folder: 'trip-9', file: 'travel/trip-9.html'}
+- {name: Thailand, folder: 'trip-10', file: 'travel/trip-10.html'}
+- {name: Hungary, folder: 'trip-11', file: 'travel/trip-11.html'}
+- {name: Czech Republic, folder: 'trip-12', file: 'travel/trip-12.html'}
 
 
 #-------------------------------
