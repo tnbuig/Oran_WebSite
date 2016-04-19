@@ -10,7 +10,7 @@ description: "Programmer // Traveler // Human"
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Travel, url: '#travel'}
-- {name: Projects, url: '#projects'}
+- {name: Programmer, url: '#projects'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -29,15 +29,13 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **In each and every one of us there is a small artist** and the artist want to creat new things 
-  and have his/her say in this world.
-  Welcome to my two cents in this small corner of the web.
+  **In each and every one of us there is a small artist** and the artist wants to create new things 
+  and have their say in this world.
+  Welcome to my two cents worth from this small corner of the web.
   
-  A .Net developer whos inspired by the *New* and *different*, that also why i love to travel
+  I am a .Net developer who|s inspired by the *new* and the *different*. That's also why I love  traveling
   and getting to experience different cultures and new places.
-  Get a glimpse of the world from a different point view.
-
-  So why not to have a site to present some ideas in a semi private stage.
+  Get a glimpse of the world from a different point of view.
 
   Comments and suggestion are welcome.
 
@@ -77,21 +75,29 @@ trips:
 # Projects Section
 
 projects:
-- {avatar: 'Twitter-api-Mvvm.jpg',
-  name: 'Twitter Api MVVM WPF',
-  title: 'Tutorial to Consum Web Api from WPF Based Client',
-  quote: '<p><strong>Wanne Follow random twits from finland</strong> Isnt that crazy useless idea? Well now you have the code to support it and well desinged as well, good tutorial for learning how to consume Web Api From WPF client according to MVVM desing pattern</p>',
+- {avatar: 'face-oded.jpg',
+  name: 'Oded Zicherman',
+  title: 'R&D Team leader at Verint systems - Israel',
+  quote: '<p><strong>Oran worked under my direct supervision,</strong> in a team that developed of a large scale information system, and was involved both in server and client side development. Oran has excellent technical skills and social skills, and he was a leading team member, both technically and socially. He is extremely diligent and reliable, and willing to work hard on any task that is assigned to him. Oran can work independently and he always follows through to ensure that the job gets done on the best side. Oran is a fast learner and he is able to adopt new technologies very quickly.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-uri.jpg',
+  name: 'Uri Stemmer',
+  title: 'Lecturer at Ben Gurion University',
+  quote: '<p><strong>I met Oran during our BSc studies at the department of electrical and computer engineering</strong> of Ben-Gurion University of the Negev, where we have worked together on various projects. Teaming up with Oran was one of the best choices I made throughout those studies. I can definitely characterize Oran as a serious, responsible, hard-working, well organized, team player, filled with curiosity to study new topics, and capable of managing (in spite of difficulty) complex problems. I have no doubt that Oran will excel in all of his future projects.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-eliran.jpg',
+  name: 'Eliran Cohen',
+  title: 'Quality Air Duct Cleaning',
+  quote: '<p><strong>In my work I meet and work with many freelancers</strong> and after working with Oran I can say that he is a skilled person that not only can operate fast but can learn fast new things as well. I gave him a task with minimum information and he completed it faster than I expected and he did it marvelously. During his work, and I assume without completely understanding, Oran thought me a "trick" that I’ll use forever and that just shows how fast and efficiently he works. I’d highly recommend Oran based on his personal skills and high Integrity. I hope to keep cooperating with him in the future.</p>',
   logo: 'logo3.png'}
-- {avatar: 'Planning-Poker.jpg',
-  name: 'Complete and Basic Website',
-  title: 'Tutorial to create a free online(not local) website with using only Html Css and Php',
-  quote: '<p><strong>Learned to run before you can walk?</strong>Ignoring the hundreths of free Libraries&Frameworks available will leave you behhind and in the dark, so this tutorial will help you to get the building blocks of website development by doing.</p>',
+- {avatar: 'face-eugene.jpg',
+  name: 'Eugene Friger',
+  title: 'Synerion Systems Ltd',
+  quote: '<p><strong>Oran and Me worked together in the University for one year</strong> on our final project. A sharp, bright, professional partner with varied skills. Working with Oran was a continues positive learning experience. I would definitely love to have Oran as my colleague/partner in the future.</p>',
   logo: 'logo4.png'}
-   
-  
 #-------------------------------
 # Contact Section
-  
+
 social:
 - {icon: 'facebook', link: 'https://www.facebook.com/oran.garbovski'}
 - {icon: 'github', link: 'https://github.com/tnbuig'}

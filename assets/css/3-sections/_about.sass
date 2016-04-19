@@ -11,9 +11,9 @@
     background-position: center
     background-image: url(../img/#{$avatar-path})
     +size(200px)
-    +order(3)
+    margin: auto
     
-  [class^="icon-"]
+  /* [class^="icon-"]
     +size(100px)
     background: $bgcolor
     border-radius: 50%
@@ -28,7 +28,7 @@
     &.icon-browser
       +order(4)
     &.icon-video
-      +order(5)
+        +order(5) */
 
 @media screen and (max-width: 650px)
   .face-lockup
@@ -45,11 +45,8 @@
         repeat: no-repeat
       margin: 0 auto 30px
       
-    [class^="icon-"]
-      margin: 10px 9%
-      
-
-
+    /* [class^="icon-"]
+        margin: 10px 9%*/
 
 .blurb
   max-width: 620px
