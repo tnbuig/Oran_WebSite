@@ -9,6 +9,3 @@ This mix of powerfull and huge country with great povetry elemnts that make you 
 
 ![India](assets/img/travel/trip-6/img2.jpg)
 ![India](assets/img/travel/trip-6/img3.jpg)
-![India](assets/img/travel/trip-6/img4.jpg)
-![India](assets/img/travel/trip-6/img5.jpg)
-![India](assets/img/travel/trip-6/img6.jpg)

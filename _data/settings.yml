@@ -44,14 +44,14 @@ blurb: >
 
 
 skills:
-- {name: Team Work, value: '8'}
-- {name: Organization, value: '6'}
-- {name: Learning, value: '6'}
-- {name: Curiosity, value: '8'}
-- {name: Planning, value: '7'}
-- {name: Refactoring, value: '5'}
-- {name: Adaptability, value: '7'}
-- {name: Programming, value: '6'}
+# - {name: Team Work, value: '8'}
+# - {name: Organization, value: '6'}
+# - {name: Learning, value: '6'}
+# - {name: Curiosity, value: '8'}
+# - {name: Planning, value: '7'}
+# - {name: Refactoring, value: '5'}
+# - {name: Adaptability, value: '7'}
+# - {name: Programming, value: '6'}
 
 #-------------------------------
 # Travel Section
@@ -105,11 +105,4 @@ social:
 - {icon: 'youtube', link: 'https://www.youtube.com/user/tnbuig'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/orangerbovski'}
 
-  
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
-  
-  
-  
-  
-  
-  
