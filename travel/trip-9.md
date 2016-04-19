@@ -11,4 +11,3 @@ Japan: Eye-opening Experience.
 ![Japan](assets/img/travel/trip-9/img4.jpg)
 ![Japan](assets/img/travel/trip-9/img5.jpg)
 ![Japan](assets/img/travel/trip-9/img6.jpg)
-![Japan](assets/img/travel/trip-9/img7.jpg)
