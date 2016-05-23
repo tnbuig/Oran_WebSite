@@ -2,15 +2,15 @@
 # General Site Settings
 
 title: Oran Gerbovski
-email: tnbuig@gmail.com
+email: Oran.Gerbo@gmail.com
 description: "Programmer // Traveler // Human"
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
 - {name: About Me, url: '#about-me'}
-- {name: Travel, url: '#travel'}
 - {name: Programmer, url: '#projects'}
+- {name: Travel, url: '#travel'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -54,6 +54,36 @@ skills:
 # - {name: Programming, value: '6'}
 
 #-------------------------------
+# Projects Section
+
+projects:
+- {avatar: 'face-oded.jpg',
+  name: 'Oded Zicherman',
+  title: 'R&D Team leader at Verint systems - Israel',
+  quote: '<p><strong>Oran worked under my direct supervision,</strong> in a team that developed of a large scale information system, and was involved both in server and client side development. Oran has excellent technical skills and social skills, and he was a leading team member, both technically and socially. He is extremely diligent and reliable, and willing to work hard on any task that is assigned to him. Oran can work independently and he always follows through to ensure that the job gets done on the best side. Oran is a fast learner and he is able to adopt new technologies very quickly.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-abhishek.jpg',
+  name: 'Abhishek Joshi',
+  title: 'R&D Team leader at Verint systems - Israel',
+  quote: '<p><strong>It was pleasure working with Oran,</strong> he impressed me right from the time I interviewed him for our team. He possesses good technical skills and have very good attitude towards learning new things; he is hard working and always ready for new challenges. His fondness for processes and following best practices is commendable and infectious. I have no doubt that he will be great asset for any team.</p>',
+  logo: 'logo5.png'}
+- {avatar: 'face-uri.jpg',
+  name: 'Uri Stemmer',
+  title: 'Lecturer at Ben Gurion University',
+  quote: '<p><strong>I met Oran during our BSc studies at the department of electrical and computer engineering</strong> of Ben-Gurion University of the Negev, where we have worked together on various projects. Teaming up with Oran was one of the best choices I made throughout those studies. I can definitely characterize Oran as a serious, responsible, hard-working, well organized, team player, filled with curiosity to study new topics, and capable of managing (in spite of difficulty) complex problems. I have no doubt that Oran will excel in all of his future projects.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-eliran.jpg',
+  name: 'Eliran Cohen',
+  title: 'Quality Air Duct Cleaning',
+  quote: '<p><strong>In my work I meet and work with many freelancers</strong> and after working with Oran I can say that he is a skilled person that not only can operate fast but can learn fast new things as well. I gave him a task with minimum information and he completed it faster than I expected and he did it marvelously. During his work, and I assume without completely understanding, Oran thought me a "trick" that I’ll use forever and that just shows how fast and efficiently he works. I’d highly recommend Oran based on his personal skills and high Integrity. I hope to keep cooperating with him in the future.</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-eugene.jpg',
+  name: 'Eugene Friger',
+  title: 'Synerion Systems Ltd',
+  quote: '<p><strong>Oran and Me worked together in the University for one year</strong> on our final project. A sharp, bright, professional partner with varied skills. Working with Oran was a continues positive learning experience. I would definitely love to have Oran as my colleague/partner in the future.</p>',
+  logo: 'logo4.png'}
+
+#-------------------------------
 # Travel Section
 
 trips:
@@ -71,30 +101,6 @@ trips:
 - {name: Czech Republic, folder: 'trip-12', file: 'travel/trip-12.html'}
 
 
-#-------------------------------
-# Projects Section
-
-projects:
-- {avatar: 'face-oded.jpg',
-  name: 'Oded Zicherman',
-  title: 'R&D Team leader at Verint systems - Israel',
-  quote: '<p><strong>Oran worked under my direct supervision,</strong> in a team that developed of a large scale information system, and was involved both in server and client side development. Oran has excellent technical skills and social skills, and he was a leading team member, both technically and socially. He is extremely diligent and reliable, and willing to work hard on any task that is assigned to him. Oran can work independently and he always follows through to ensure that the job gets done on the best side. Oran is a fast learner and he is able to adopt new technologies very quickly.</p>',
-  logo: 'logo1.png'}
-- {avatar: 'face-uri.jpg',
-  name: 'Uri Stemmer',
-  title: 'Lecturer at Ben Gurion University',
-  quote: '<p><strong>I met Oran during our BSc studies at the department of electrical and computer engineering</strong> of Ben-Gurion University of the Negev, where we have worked together on various projects. Teaming up with Oran was one of the best choices I made throughout those studies. I can definitely characterize Oran as a serious, responsible, hard-working, well organized, team player, filled with curiosity to study new topics, and capable of managing (in spite of difficulty) complex problems. I have no doubt that Oran will excel in all of his future projects.</p>',
-  logo: 'logo2.png'}
-- {avatar: 'face-eliran.jpg',
-  name: 'Eliran Cohen',
-  title: 'Quality Air Duct Cleaning',
-  quote: '<p><strong>In my work I meet and work with many freelancers</strong> and after working with Oran I can say that he is a skilled person that not only can operate fast but can learn fast new things as well. I gave him a task with minimum information and he completed it faster than I expected and he did it marvelously. During his work, and I assume without completely understanding, Oran thought me a "trick" that I’ll use forever and that just shows how fast and efficiently he works. I’d highly recommend Oran based on his personal skills and high Integrity. I hope to keep cooperating with him in the future.</p>',
-  logo: 'logo3.png'}
-- {avatar: 'face-eugene.jpg',
-  name: 'Eugene Friger',
-  title: 'Synerion Systems Ltd',
-  quote: '<p><strong>Oran and Me worked together in the University for one year</strong> on our final project. A sharp, bright, professional partner with varied skills. Working with Oran was a continues positive learning experience. I would definitely love to have Oran as my colleague/partner in the future.</p>',
-  logo: 'logo4.png'}
 #-------------------------------
 # Contact Section
 
