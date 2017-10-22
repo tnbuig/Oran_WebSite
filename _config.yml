@@ -11,3 +11,4 @@ exclude: ['the_design.psd']
 sass:
   sass_dir: assets/css
   style: :nested
+theme: jekyll-theme-cayman
